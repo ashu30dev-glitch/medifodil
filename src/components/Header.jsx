@@ -192,7 +192,7 @@ export default function Header() {
                 className={({ isActive }) =>
                   `block py-4 px-4 text-lg font-medium transition-colors rounded-lg ${
                     isActive
-                      ? "text-orange-600 bg-orange-50"
+                      ? "text-slate-900 bg-slate-50"
                       : "text-slate-700 hover:bg-slate-50"
                   }`
                 }
