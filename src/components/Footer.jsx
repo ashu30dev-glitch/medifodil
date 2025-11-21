@@ -5,7 +5,7 @@ export default function Footer() {
   const { phone, email, address } = site.company;
 
   return (
-    <footer className="bg-slate-900 text-slate-200 mt-12">
+      <footer className="bg-slate-900 text-slate-200 mt-12">
       <div className="max-w-6xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-8">
         <div>
           <h4 className="text-white font-semibold">Medifodil</h4>

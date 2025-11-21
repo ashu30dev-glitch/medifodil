@@ -21,6 +21,11 @@ export default function App(){
           <Route path="/services" element={<Services/>} />
           <Route path="/careers" element={<Careers/>} />
           <Route path="/contact" element={<Contact/>} />
+          {/* Services overview page */}
+            <Route path="/services" element={<Services />} />
+
+            {/* Individual service detail pages */}
+            <Route path="/services/:serviceName" element={<Services />} />
         </Routes>
       </main>
       <Footer />
